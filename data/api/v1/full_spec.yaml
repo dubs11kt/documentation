@@ -15067,6 +15067,8 @@ components:
       - apm_fargate_percentage
       - appsec_fargate_usage
       - appsec_fargate_percentage
+      - estimated_rum_usage_attribution_usage
+      - estimated_rum_usage_attribution_percentage
       type: string
       x-enum-varnames:
       - API_PERCENTAGE
@@ -15103,6 +15105,8 @@ components:
       - APM_FARGATE_PERCENTAGE
       - APPSEC_FARGATE_USAGE
       - APPSEC_FARGATE_PERCENTAGE
+      - ESTIMATED_RUM_USAGE_ATTRIBUTION_USAGE
+      - ESTIMATED_RUM_USAGE_ATTRIBUTION_PERCENTAGE
     UsageAttributionSupportedMetrics:
       description: Supported fields for usage attribution requests (valid requests
         contain one or more metrics, or `*` for all).
@@ -15151,6 +15155,8 @@ components:
       - apm_fargate_percentage
       - appsec_fargate_usage
       - appsec_fargate_percentage
+      - estimated_rum_usage_attribution_usage
+      - estimated_rum_usage_attribution_percentage
       - '*'
       type: string
       x-enum-varnames:
@@ -15198,6 +15204,8 @@ components:
       - APM_FARGATE_PERCENTAGE
       - APPSEC_FARGATE_USAGE
       - APPSEC_FARGATE_PERCENTAGE
+      - ESTIMATED_RUM_USAGE_ATTRIBUTION_USAGE
+      - ESTIMATED_RUM_USAGE_ATTRIBUTION_PERCENTAGE
       - ALL
     UsageAttributionTagNames:
       additionalProperties:
